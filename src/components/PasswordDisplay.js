@@ -4,9 +4,9 @@ import Snackbar from "@mui/material/Snackbar";
 import { Alert } from "@mui/material";
 
 const PasswordDisplay = ({ onPasswordGenerated }) => {
-  const [useNumbers, setUseNumbers] = useState(true);
-  const [useAlphabets, setUseAlphabets] = useState(true);
-  const [useSpecialChars, setUseSpecialChars] = useState(true);
+  const useNumbers = true;
+  const useAlphabets= true;
+  const useSpecialChars = true;
   const [generatedPassword, setGeneratedPassword] = useState("");
   const [snackbarOpen, setSnackbarOpen] = useState(false);
 
